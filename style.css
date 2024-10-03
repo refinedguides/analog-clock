@@ -12,8 +12,8 @@ body {
   --clock-size: 400px;
   background: darkcyan;
   display: flex;
+  flex-direction: column;
   align-items: center;
-  justify-content: center;
   height: 100vh;
   overflow: hidden;
   font-size: 32px;
@@ -21,6 +21,7 @@ body {
 }
 
 .clock {
+  margin-block: auto;
   background: #fff;
   width: var(--clock-size);
   height: var(--clock-size);
